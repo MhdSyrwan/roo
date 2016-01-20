@@ -54,7 +54,7 @@ module Roo
         elsif format.include?('%')
           :percentage
         else
-          :float
+          :string
         end
       end
 
